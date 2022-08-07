@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>"Элементы веб-страниц"</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <div><a target="_blank" href="./index.html" class="links">Перейти к таблице браузеров</a></div>
+    <h1 class="H1">Элементы веб-страниц</h1>
+    <hr/>
+    <h2 class="H2">Чекбоксы</h2>
+       <form action="./page.php" method="post" id="cbform1">
+            <input type="checkbox" name="browser_check" value="gc"/> Chrome
+            <input type="checkbox" name="browser_check" value="opera"/> Opera
+            <input type="checkbox" name="browser_check" value="mf"/> Firefox
+            <input type="checkbox" name="browser_check" value="me"/> Edge
+            <br/> <br/>
+            <input type="submit" name="checkbox" value="Подтвердить">
+       </form>
+    <hr/>
+    <h2 class="H2">Радиокнопки</h2>
+        <input type="radio" value="gc" name="browser_check"> Chrome
+        <input type="radio" value="opera" name="browser_check"> Opera
+        <input type="radio" value="mf" name="browser_check"> Firefox
+        <input type="radio" value="me" name="browser_check"> Edge
+        <br/> <br/>
+        <input type="submit" name="radio" value="Подтвердить">
+    <hr/>
+    <h2 class="H2">Выпадающий список с единичным выбором</h2>
+        <select>
+            <option disabled>Выберите браузер</option>
+            <option>Chrome</option>
+            <option>Opera</option>
+            <option>Firefox</option>
+            <option>Edge</option>
+        </select>
+        <br/> <br/>
+        <input type="submit" name="select_one" value="Подтвердить">
+    <hr/>
+    <h2 class="H2">Выпадающий список с множественным выбором</h2>
+        <select multiple size="5">
+            <option disabled>Выберите браузер</option>
+            <option>Chrome</option>
+            <option>Opera</option>
+            <option>Firefox</option>
+            <option>Edge</option>
+         </select>
+        <br/> <br/>
+
+        <input type="submit" name="select_multi" value="Подтвердить">
+    <hr/>
+    <h2 class="H2">Однострочное поле ввода</h2>
+        <label>Введите название браузера
+        <input type="text" name="line_one">
+        </label>
+        <br/> <br/>
+        <button type="submit" name="type_one">Подтвердить</button>
+    <hr/>
+    <h2 class="H2">Многострочное поле ввода </h2>
+        <textarea rows="6" cols="50">Введите название браузеров, каждое в отдельную строку</textarea>
+        <br/><br/>
+        <button type="submit" name="type_multi">Подтвердить</button>
+    <hr/>
+    <h2 class="H2">Кнопка</h2>
+        <button type="button" class="btn"></button>
+    <hr/>
+
+</body>
+</html>

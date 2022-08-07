@@ -1,0 +1,112 @@
+body {
+background-image: url(img/background.png);
+background-size: 50% auto;
+}
+
+H1 {
+    font-family: 'Furore';
+    font-size: 32px;
+    color: #29264d;
+}
+
+H2 {
+    font-family: 'Furore';
+    font-size: 20px;
+    color: #504c75f4;
+    }
+
+a.links:link {
+    font-family: 'Furore';
+    font-size: 14px;
+    color: #b35b40f4;
+    }
+
+a.links:visited {
+    font-family: 'Furore';
+    font-size: 14px;
+    color: #cf9482f4;
+    }
+
+a.links:hover {
+    font-family: 'Furore';
+    font-size: 14px;
+    color: #b5401d;
+    }
+
+a.links:active {
+    font-family: 'Furore';
+    font-size: 14px;
+    color: #b5401d;
+    }
+
+a.wiki:link {
+    font-family: 'Furore';
+    text-decoration: none;
+    color: #306da6f6;
+    }
+
+a.wiki:visited {
+    font-family: 'Furore';
+    text-decoration: none;
+    color: #8fabc4f6;
+    }
+
+a.wiki:hover {
+    font-family: 'Furore';
+    text-decoration: none;
+    color: #023361f6;
+    }
+
+a.wiki:active {
+    font-family: 'Furore';
+    text-decoration: none;
+    color: #023361f6;
+    }
+
+td {
+    font-family: 'Furore';
+    font-size: 14px;
+    color: #504c75f4;
+    }
+
+th {
+    font-family: 'Furore';
+    font-size: 16px;
+    color: #29264d;
+    }
+
+[myAttr="wptext"]{
+    font-family: 'Furore';
+    font-size: 14px;
+    color: #504c75f4;
+    }
+
+#cbform1 {
+    font-family: 'Furore';
+    font-size: 12px;
+    color: #4b4a4ff4;
+    }
+
+button.btn {
+    background: url(img/button.png/) no-repeat 50%;
+    background-size: 100% auto;
+    width: 200px;
+    height: 100px;
+    border: 0;
+}
+
+button.btn:hover {
+    background-image: url(img/button.png/);
+    background-size: 100% auto;
+    width: 200px;
+    height: 100px;
+    border: 0;
+}
+
+button.btn:active {
+    background-image: url(img/button_pressed.png/);
+    background-size: 100% auto;
+    width: 200px;
+    height: 100px;
+    border: 0;
+}
