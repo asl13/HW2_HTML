@@ -6,48 +6,57 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-<div><a target="_blank" href="./index.html" class="links">Перейти к таблице браузеров</a></div>
-<h1 class="H1">Элементы веб-страниц</h1>
+    <div><a target="_blank" href="./index.html" class="links">Перейти к таблице браузеров</a></div>
+    <h1 class="H1">Элементы веб-страниц</h1>
 <hr/>
-<h2 class="H2">Чекбоксы</h2>
-<form action="./page.php" method="post" id="form1">
-    <input type="checkbox" name="checkbox" value="cbox_gc"/> Chrome
-    <input type="checkbox" name="checkbox" value="cbox_opera"/> Opera
-    <input type="checkbox" name="checkbox" value="cbox_mf"/> Firefox
-    <input type="checkbox" name="checkbox" value="cbox_me"/> Edge
+    <form action="./page.php" method="post" id="form1">
+    <h2 class="H2">Чекбоксы</h2>
+    <label> Chrome
+        <input type="checkbox" name="checkbox" value="cbox_gc"/> </label>
+
+    <label> Opera
+        <input type="checkbox" name="checkbox" value="cbox_opera"/> </label>
+
+    <label> Firefox
+        <input type="checkbox" name="checkbox" value="cbox_mf"/> </label>
+
+    <label> Edge
+        <input type="checkbox" name="checkbox" value="cbox_me"/> </label>
     <br/>
-
-
 <hr/>
-<h2 class="H2">Радиокнопки</h2>
-<input type="radio" value="rad_gc" name="radio"> Chrome
-<input type="radio" value="rad_opera" name="radio"> Opera
-<input type="radio" value="rad_mf" name="radio"> Firefox
-<input type="radio" value="rad_me" name="radio"> Edge
-<br/>
+    <h2 class="H2">Радиокнопки</h2>
+    <label> Chrome
+        <input type="radio" value="rad_gc" name="radio"></label>
 
+    <label> Opera
+        <input type="radio" value="rad_opera" name="radio"></label>
+
+    <label> Firefox
+        <input type="radio" value="rad_mf" name="radio"></label>
+
+    <label> Edge
+        <input type="radio" value="rad_me" name="radio"></label>
+    <br/>
 <hr/>
-<h2 class="H2">Выпадающий список с единичным выбором</h2>
-<select name="select_one">
-    <option disabled>Выберите браузер</option>
-    <option value="s1_gc">Chrome</option>
-    <option value="s1_opera">Opera</option>
-    <option value="s1_mf">Firefox</option>
-    <option value="s1_me">Edge</option>
-</select>
-<br/>
-
+    <h2 class="H2">Выпадающий список с единичным выбором</h2>
+    <select name="select_one">
+        <option disabled>Выберите браузер</option>
+        <option value="s1_gc">Chrome</option>
+        <option value="s1_opera">Opera</option>
+        <option value="s1_mf">Firefox</option>
+        <option value="s1_me">Edge</option>
+    </select>
+    <br/>
 <hr/>
-<h2 class="H2">Выпадающий список с множественным выбором</h2>
-<select name="select_multi" multiple size="5">
-    <option disabled>Выберите браузер</option>
-    <option value="smulti_gc">Chrome</option>
-    <option value="smulti_opera">Opera</option>
-    <option value="smulti_mf">Firefox</option>
-    <option value="smulti_me">Edge</option>
-</select>
-<br/>
-
+    <h2 class="H2">Выпадающий список с множественным выбором</h2>
+    <select name="select_multi" multiple size="5">
+        <option disabled>Выберите браузер</option>
+        <option value="smulti_gc">Chrome</option>
+        <option value="smulti_opera">Opera</option>
+        <option value="smulti_mf">Firefox</option>
+        <option value="smulti_me">Edge</option>
+    </select>
+    <br/>
 <hr/>
 <h2 class="H2">Однострочное поле ввода</h2>
 <label>Введите название браузера
